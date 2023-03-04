@@ -1,0 +1,31 @@
+.offer-item {
+    width: 30%;
+    
+    border: 1px solid var(--e-color);
+    padding: 30px 15px 30px 70px;
+    position: relative;
+}
+
+.offer-item.mg {
+    margin: 0 5%;
+}
+
+.offer-item .icon {
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    color: var(--maincolor);
+}
+
+.offer-item-title {
+    transition: color 0.5s;
+}
+
+.offer-item-desc {
+    line-height: 1.6;
+    color: var(--graycolor);
+}
+
+.offer-item:hover .offer-item-title {
+    color: var(--whitecolor);
+}
